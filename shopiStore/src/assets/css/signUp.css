@@ -1,0 +1,61 @@
+.formulaireInscription {
+
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+
+
+#formulaireInscription {
+  display: block;
+  align-items: center;
+  border: #8A4B8B solid 5px;
+  border-radius: 10px;
+  margin: auto;
+  text-align: left;
+  width: 50%;
+  padding: 50px;
+}
+
+.logoFormulaire {
+
+  width: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+form div {
+  margin: 24px;
+}
+
+input {
+  border: 2px solid #8A4B8B;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+}
+
+input:focus {
+  outline-color: grey;
+  /* droite, bas, taille ombre, opacité ombre*/
+  box-shadow: 1px 1px 15px lightslategrey;
+  background-color: rgb(240, 239, 239);
+}
+
+
+p {
+  color: red;
+  font-size: 10px;
+}
+
+
+#buttonFormulaire {
+  display: block;
+  margin: auto;
+  background: #e5e5e5;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  font-size: 18px;
+  width: 50%;
+  padding: 5px;
+}
